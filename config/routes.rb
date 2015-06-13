@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  EventWizard.register_routes_for "events", self
+
   resources :events
 
   # The priority is based upon order of creation: first created -> highest priority.

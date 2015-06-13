@@ -6,6 +6,4 @@ module EventWizard
     step :schedule
     step :attendees
   end
-
-
 end
