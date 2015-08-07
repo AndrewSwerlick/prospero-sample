@@ -1,7 +1,7 @@
 module EventWizard
   class Create < Prospero::Form
     property :name
-    property :type
+    property :event_type
 
 
   end

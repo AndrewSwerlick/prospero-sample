@@ -1,7 +1,5 @@
 module EventWizard
   class Attendees < Prospero::Form
-    collection :attendees do
-      property :email_address, virtual: true
-    end
+    collection :attendees 
   end
 end

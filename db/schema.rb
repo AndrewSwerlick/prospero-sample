@@ -11,15 +11,16 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150612033548) do
+ActiveRecord::Schema.define(version: 20150807010310) do
 
   create_table "events", force: :cascade do |t|
     t.string   "name"
     t.string   "location"
     t.datetime "when"
-    t.string   "type"
+    t.string   "event_type"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.integer  "duration"
   end
 
 end

@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  EventWizard.register_routes_for "events", self
+  EventWizard.register_routes_for self
 
   resources :events
 

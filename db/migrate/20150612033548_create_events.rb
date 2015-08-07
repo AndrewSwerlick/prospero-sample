@@ -4,7 +4,7 @@ class CreateEvents < ActiveRecord::Migration
       t.string :name
       t.string :location
       t.datetime :when
-      t.string :type
+      t.string :event_type
       t.timestamps null: false
     end
   end
